@@ -1,0 +1,25 @@
+.dashContainer{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: #edeef0;
+    padding: 5px 10px;
+    width: 1500px;
+}
+
+.dashCardContainer{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width : 250px;
+}
+
+.scrollbar{
+    margin-left:auto; 
+    margin-right:auto; 
+    width:auto; 
+    height: 600px; 
+    overflow-y: scroll;
+}
